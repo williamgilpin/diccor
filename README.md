@@ -8,6 +8,10 @@ The code was developed by the Brangwynne laboratory at Princeton University. If 
      bulk mechanical properties of C. elegans are independent of the cuticle” 
      Biophysical Journal, 2015.
 
+#### Usage ####
+
+Run each cell in the file main_analysis.m sequentially in order to separate the various stages. The outlier rejection and Gaussian smoothing cells are optional depending on the type of data. All parameters are declared at the top of the cell in which they appear.
+
 Sample Displacement Field        |  Sample Maximal Strain Projection
 :-------------------------:|:-------------------------:
 ![](sample_output/vec_field/overlay4.png)	|	![](sample_output/strain_map/map4.png)
